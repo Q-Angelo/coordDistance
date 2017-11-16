@@ -1,0 +1,26 @@
+{
+    "name": "coorddistance",
+    "version": "1.0.0",
+    "description": "计算两坐标系之间的距离",
+    "main": "index.js",
+    "scripts": {
+      "test": ""
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Q-Angelo/coorddistance.git"
+    },
+    "keywords": [
+      "坐标系",
+      "计算距离",
+      "distance",
+      "coordinate system"
+    ],
+    "author": "qufei",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Q-Angelo/coorddistance/issues"
+    },
+    "homepage": "https://github.com/Q-Angelo/coorddistance#readme"
+}
+  
