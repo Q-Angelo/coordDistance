@@ -50,29 +50,6 @@ class calulateTwoLngLat{
 
         return s;
     }
-
-    getDistance2(point1, point2){
-        if ((Math.abs(point1.lat) > 90) || (Math.abs(point2.lat) > 90)) {
-            return;
-        }
-        if ((Math.abs(point1.lng) > 180) || (Math.abs(point2.lng) > 180)) {
-            return;
-        }
-    
-        var rad = function (d) {
-            return d * Math.PI / 180.0;
-        };
-    
-        var radLat1 = rad(point1.lat),
-            radLat2 = rad(point2.lat),
-            a = radLat1 - radLat2,
-            b = rad(point1.lng) - rad(point2.lng);
-    
-        var s = 2 * Math.asin(Math.sqrt(Math.pow(Math.sin(a / 2), 2) + Math.cos(radLat1) * Math.cos(radLat2) * Math.pow(Math.sin(b / 2), 2)));
-        s = s * 6378.137;// EARTH_RADIUS;
-    
-        return s;
-    }
 }
 
 module.exports = {
