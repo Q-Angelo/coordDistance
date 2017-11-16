@@ -1,6 +1,6 @@
 {
     "name": "coorddistance",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "计算两坐标系之间的距离",
     "main": "index.js",
     "scripts": {
